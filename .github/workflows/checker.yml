@@ -1,0 +1,11 @@
+name: Simple Checker
+
+on:
+  push:
+
+jobs:
+  checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print test message
+        run: echo "Running Tests..."
